@@ -127,35 +127,54 @@ body {
 
 /* PARALLAX LAYER - FOOTER SECTION */
 .layer.footer {
-	transform: translateZ(10px);
-}
+	transform: translateZ(0);
+  }
 
 .parallax-layer.footer {
-	display: block;
-	top: 8rem;
-	width: 150%;
-	height: 100%;
-	right: -25%;
-  
+	position: fixed;
+	bottom: 0pt;
+	left:0pt;
+	width: 100%;
+	height:26px;
+
+	text-align: right;
+
 	background-color: #333333;
 	color: white;
-	border-radius: 15px;
 	border-style: solid;
 	border-color: white;
-	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+	background-color: rgba(0,0,0, 1); /* Black w/opacity/solid */
+} 
+
+.footer_contents {
+
+    height:30px;
+    width: 1000px; 
+    margin:auto;
+
 }
+
+
+
+/* PARALLAX LAYER - FOOTER SECTION */
+.layer.footer {
+	transform: translateZ(-1px);
+}
+
+
 
 /* PARALLAX LAYER - INDEX - FIRST BOX */
 .layer2 {
 	transform: translateZ(-1px);
 }
 
+	
 .parallax-layer.layer2 {
 	top: 8rem;
 	width: 150%;
 	height: 100%;
 	right: -25%;
-  
+
 	background-color: #333333;
 	color: white;
 	border-radius: 15px;
@@ -192,3 +211,5 @@ body {
 .layer5 {
 	transform: translateZ(-1px);
 }
+
+

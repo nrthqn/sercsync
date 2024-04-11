@@ -1,0 +1,194 @@
+/* MAIN BODY */
+body {
+	font-family: "Madimi One";
+	color: black;
+	overflow-x: hidden;
+	background-color: #36454F;
+}
+
+.madimi-one-regular {
+	font-family: "Madimi One", sans-serif;
+	font-weight: 200px;
+	font-style: normal;
+}
+
+/* HEADER */
+#header {
+	background-color: #12343b;
+	box-shadow: 0 2px 100px black;
+	border-style: solid;
+	border-color: #000000;
+	background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+	border: 10px solid #f1f1f1;
+
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1300px;
+	padding: 18px;
+	z-index: 5;
+}
+
+#header button {
+	background-color: transparent;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	cursor: pointer;
+	border-color: transparent;
+	font-family: "Madimi One";
+	font-size: x-large;	
+}
+
+.center-div {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	
+	/* WHEN HOVERED OVER, BUTTON DOES: */
+#header button:hover {
+	background-color: #333333;
+	color: white;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+}
+
+	/* WHEN ON WEBPAGE, OUTLINES CURRENT WEBPAGE */
+.active {
+	background-color: #333333;
+	color: white;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+}
+	/* WHEN ON WEBPAGE, OUTLINES CURRENT WEBPAGE */
+.nonactive {
+	background-color: transparent;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: transparent;
+}
+
+#header {display: inline-block; }
+
+div {text-align: center; }
+  
+/* INDEX PAGE CONTENT */
+
+.parallax-container {  
+	min-height: 100vh;
+  
+	/* DON'T KNOW WHAT THIS DOES, BUT IT BREAKS STUFF IF REMOVED  */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+
+  /* PARALLAX SECTIONS */
+body {
+	margin: 0;
+  }
+  
+.parallax {
+	height: 100vh;
+  
+	overflow-x: hidden;
+	overflow-y: auto;
+  
+	perspective: 1px;
+  }
+  
+.parallax-layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 10;
+}
+  
+/* PARALLAX LAYER - HEADER SECTION */
+.layer.header {
+	transform: translateZ(0);
+  }
+
+.parallax-layer.header {
+	width: 100%;
+	height: 11.6rem;
+  
+	background-image: url("header.png");
+	box-shadow: 0 10px 100px black;
+}
+
+/* PARALLAX LAYER - FOOTER SECTION */
+.layer.footer {
+	transform: translateZ(10px);
+}
+
+.parallax-layer.footer {
+	display: block;
+	top: 8rem;
+	width: 150%;
+	height: 100%;
+	right: -25%;
+  
+	background-color: #333333;
+	color: white;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+}
+
+/* PARALLAX LAYER - INDEX - FIRST BOX */
+.layer2 {
+	transform: translateZ(-1px);
+}
+
+.parallax-layer.layer2 {
+	top: 8rem;
+	width: 150%;
+	height: 100%;
+	right: -25%;
+  
+	background-color: #333333;
+	color: white;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+}
+
+/* PARALLAX LAYER - INDEX - SECOND BOX */
+.layer3 {
+	transform: translateZ(-1px);
+}
+
+.parallax-layer.layer3 {
+	top: 58rem;
+	width: 150%;
+	height: 100%;
+	right: -25%;
+  
+	background-color: #333333;
+	color: white;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+}
+
+.layer4 {
+	transform: translateZ(-1px);
+}
+
+
+
+.layer5 {
+	transform: translateZ(-1px);
+}

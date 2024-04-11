@@ -78,6 +78,52 @@ body {
 
 div {text-align: center; }
   
+/* FOOTER */
+#footer {
+	background-color: #12343b;
+	box-shadow: 0 2px 100px black;
+	border-style: solid;
+	border-color: #000000;
+	background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+	border: 10px solid #f1f1f1;
+
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1300px;
+	padding: 18px;
+	z-index: 5;
+}
+
+#footer button {
+	background-color: transparent;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	cursor: pointer;
+	border-color: transparent;
+	font-family: "Madimi One";
+	font-size: x-large;	
+}
+
+.center-div {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	
+	/* WHEN HOVERED OVER, BUTTON DOES: */
+#footer button:hover {
+	background-color: #333333;
+	color: white;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+}
+
+
 /* INDEX PAGE CONTENT */
 
 .parallax-container {  
@@ -124,44 +170,6 @@ body {
 	background-image: url("header.png");
 	box-shadow: 0 10px 100px black;
 }
-
-/* PARALLAX LAYER - FOOTER SECTION */
-.layer.footer {
-	transform: translateZ(0);
-  }
-
-.parallax-layer.footer {
-	position: fixed;
-	bottom: 0pt;
-	left:0pt;
-	width: 100%;
-	height:26px;
-
-	text-align: right;
-
-	background-color: #333333;
-	color: white;
-	border-style: solid;
-	border-color: white;
-	background-color: rgba(0,0,0, 1); /* Black w/opacity/solid */
-} 
-
-.footer_contents {
-
-    height:30px;
-    width: 1000px; 
-    margin:auto;
-
-}
-
-
-
-/* PARALLAX LAYER - FOOTER SECTION */
-.layer.footer {
-	transform: translateZ(-1px);
-}
-
-
 
 /* PARALLAX LAYER - INDEX - FIRST BOX */
 .layer2 {

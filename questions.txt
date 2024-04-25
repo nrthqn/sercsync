@@ -1,5 +1,0 @@
-in register.php, should my href for the account be to the log in or log out . php page?
-
-why is charaters not working on all webpages
-
-in login.php, is there a way to auto redirect users depending on if their logged in or out instead of having to speciy using words? if not, how do i move that text

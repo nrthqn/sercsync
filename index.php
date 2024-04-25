@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,10 +22,10 @@
 		<!-- HEADER LOGO AND BUTTONS -->
 		<div id="header">
 			<img src="logo.png" width="400" />
-			<a class="active" style="float: left" href="index.html"> <button> HOME </button> </a>
-			<a class="nonactive" style="float: left" href="gamesnews.html"> <button> GAMES NEWS </button> </a>
+			<a class="active" style="float: left" href="index.php"> <button> HOME </button> </a>
+			<a class="nonactive" style="float: left" href="gamesnews.php"> <button> GAMES NEWS </button> </a>
 			<a class="nonactive" style="float: right" href="login.php"> <button> ACCOUNT </button> </a>
-			<a class="nonactive" style="float: right" href="gameslibrary.html"> <button>GAMES LIBRARY </button> </a>
+			<a class="nonactive" style="float: right" href="gameslibrary.php"> <button> GAMES LIBRARY </button> </a>
 		</div>
 
 		<!-- PARALLAX IMAGE AND FUNCTION -->
@@ -40,8 +44,9 @@
 							<br>"Some trees flourish, others die. Some cattle grow strong, others are taken by wolves. Some men are born rich enough and dumb enough to enjoy their lives. Ain't nothing fair." - Red Dead Redemption <br>
 							<br>"Hope is what makes us strong. It is why we are here. It is what we fight with when all else is lost." - God of War 3 <br>
 							<br>"One of these days you're going to land on something as stubborn as you are, and I don't do bits and pieces." - Sergeant Johnson, Halo <br>
-							<br> "Everyone thinks they're the hero of their own story." - Handsome Jack, Borderlands<br>
+							<br>"Everyone thinks they're the hero of their own story." - Handsome Jack, Borderlands<br>
 							<br>"If the laws of physics no longer apply in the future... God help you." -Portal 2<br>
+							<br>"History Is Written By The Victor. History Is Filled With Liars. If He Lives, And We Die, His Truth Becomes Written And Ours Is Lost."" - Captain Price
 						</pp>
 					</div>
 				</div>
@@ -201,7 +206,7 @@
 				<div class="containerFive-container">
 					<hh2>Want to get in touch?</hh2>
 					<pp> <br> Have a suggestion for our team? Maybe you want us to cover something? Let us know below! </pp>
-					<form action="404.html">
+					<form action="404.php">
 						<div class="row">
 						  <div class="col-25">
 							<label for="fname">First Name</label>
@@ -250,7 +255,7 @@
 			<div class="cardFull2">
 				<div class="cards2">
 				<section class="containerFour">
-					<form action="404.html">
+					<form action="404.php">
 						<div class="container">
 							<hh2>Subscribe to our Newsletter</hh2>
 							<pp> <br> Get weekly updates and more on all the lastest news! </pp>

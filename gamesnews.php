@@ -24,10 +24,10 @@
 		<!-- HEADER LOGO AND BUTTONS -->
 		<div id="header">
 			<img src="logo.png" width="400" />
-			<a class="nonactive" style="float: left" href="index.html"> <button> HOME </button> </a>
-			<a class="active" style="float: left" href="gamesnews.html"> <button> GAMES NEWS </button> </a>
+			<a class="nonactive" style="float: left" href="index.php"> <button> HOME </button> </a>
+			<a class="active" style="float: left" href="gamesnews.php"> <button> GAMES NEWS </button> </a>
 			<a class="nonactive" style="float: right" href="login.php"> <button> ACCOUNT </button> </a>
-			<a class="nonactive" style="float: right" href="gameslibrary.html"> <button>GAMES LIBRARY </button> </a>
+			<a class="nonactive" style="float: right" href="gameslibrary.php"> <button> GAMES LIBRARY </button> </a>
 		</div>
 
 		<!-- PARALLAX IMAGE AND FUNCTION -->
@@ -95,7 +95,7 @@
 					</div>
 
 					<div id="containerTwo">
-					<a style="float: middle" href="404.html"> <button> ALL ARTICLES </button> </a>
+					<a style="float: middle" href="404.php"> <button> ALL ARTICLES </button> </a>
 				</div>
 			</section>
 
@@ -122,7 +122,7 @@
 
 						<div class="box5">
 							<a href="https://www.ign.com/articles/dragons-dogma-2-has-done-so-well-capcom-is-paying-out-more-money-to-shareholders">
-								<img src="capcom.png" alt="HELLDIVERS - Image credits PushStartPlay"> 
+								<img src="capcom.png" alt="Draogn's Dogma 2 - Image credits PushStartPlay"> 
 							</a>
 								<div class="textbox10">
 									<pp>
@@ -138,22 +138,24 @@
 								</div>
 						</div>
 						<div class="box6">
-							<a href="https://gameranx.com/updates/id/496505/article/director-of-assassins-creed-mirage-has-more-ideas-for-basims-story/">
-								<img src="assassincreed.png" alt="HELLDIVERS - Image credits Playstation"> 
+							<a href="https://news.xbox.com/en-us/2024/04/23/talking-creative-minds-behind-eiyuden-chronicle-hundred-heroes/">
+								<img src="eid.png" alt="Eiyuden Chronicle: Hundred Heroes - Image credits Xbox"> 
 							</a>	
 								<div class="textbox10">
-									<pp>More Ideas For Basim's Story<br> <br>
-										The creative director for Assassin's Creed Mirage wants to further Basim's story and has ideas to do so; however, it wouldn't be in the form of DLC added to the already existing game. While another game has not been confirmed, this is something that could happen in the future, considering it is being talked about.							
+									<pp>Talking to the Creative Minds Behind Eiyuden Chronicle: Hundred Heroes<br>
+										<br>Starting today, players can immerse themselves in the world of Eiyuden Chronicle: Hundred Heroes, which continues a rich legacy of memorable JRPGs guided by the stewardship of the late Yoshitaka Murayama and his team at Rabbit & Bear Studios.<br>
+										<br>Funded via Kickstarter back in 2020, with a total of 46,307 backers that were hungry for more Murayama-esque game experiences like Suikoden, Eiyuden Chroncole: Hundred Heroes is now available for players on Xbox.<br>						
+										<br> Xbox Wire Japan recently had a chance to speak with Studio Head and Illustrator Junko Kawano, Producer and Art Director Junichi Murakami, and Director Osamu Komuta at Rabbit & Bear Studios.
 									</pp>
 									<pp1>
-										<br><br> Source - Gameranx 
+										<br><br> Source - Xbox Wire 
 										<br><br> Click the image to read more!	
 									</pp1>
 								</div>
 						</div>
 					</div>
 					<div id="containerTwo">
-					<a style="float: middle" href="404.html"> <button> ALL ARTICLES </button> </a>
+					<a style="float: middle" href="404.php"> <button> ALL ARTICLES </button> </a>
 				</div>
 			</section>
 
@@ -162,12 +164,14 @@
 						<hh2>THIS WEEK'S TOP ARTICLES</hh2>
 					<div class="container">
 						<div class="box7">
-							<a href="https://gameranx.com/updates/id/496505/article/director-of-assassins-creed-mirage-has-more-ideas-for-basims-story/">
-								<img src="assassincreed.png" alt="HELLDIVERS - Image credits Playstation"> 
+							<a href="https://gameranx.com/updates/id/496534/article/call-of-duty-modern-warfare-iii-season-3-reloaded-includes-some-crazy-skins-and-a-lot-of-fun/">
+								<img src="mw3.png" alt="Call of Duty MW3 - Image credits Call of Duty"> 
 							</a>	
 								<div class="textbox10">
-									<pp>More Ideas For Basim's Story<br> <br>
-										The creative director for Assassin's Creed Mirage wants to further Basim's story and has ideas to do so; however, it wouldn't be in the form of DLC added to the already existing game. While another game has not been confirmed, this is something that could happen in the future, considering it is being talked about.							
+									<pp>Call of Duty Modern Warfare III Season 3 Reloaded Includes Some Crazy Skins And A Lot Of Fun<br>
+										<br>As they reveal in their latest blog post, this mid-season update launches on May 1, 2024, 9 AM PT, across all platforms. No exciting crossover licsenses this time, but that doesn't mean Activision hasn't prepared some crazy things.<br>
+										<br>The big new weapon coming up is the BAL-27, which they describe as "A bullpup prototype weapon designed to increase fire rate over time while the trigger is squeezed. The first 4 shots are slower to fire but highly accurate."<br>
+										<br>The big celebrity skin is the "DBook" Operator Skin, based on Phoenix Suns shooting guard Devin Booker. Since this game does celebrity cosplay, Booker trades in his jersey for a suit and tie, and brings a mastiff along for some Shadow Dancer style action.
 									</pp>
 									<pp1>
 										<br><br> Source - Gameranx 
@@ -177,39 +181,46 @@
 						</div>
 
 						<div class="box8">
-							<a href="https://gameranx.com/updates/id/496505/article/director-of-assassins-creed-mirage-has-more-ideas-for-basims-story/">
-								<img src="assassincreed.png" alt="HELLDIVERS - Image credits Playstation"> 
+							<a href="https://blog.playstation.com/2024/04/18/v-rising-heres-what-to-expect-when-you-enter-draculas-frozen-domain-of-mortium/">
+								<img src="vrising.png" alt="V Rising - Image credits Playstation Blog"> 
 							</a>	
 								<div class="textbox10">
-									<pp>More Ideas For Basim's Story<br> <br>
-										The creative director for Assassin's Creed Mirage wants to further Basim's story and has ideas to do so; however, it wouldn't be in the form of DLC added to the already existing game. While another game has not been confirmed, this is something that could happen in the future, considering it is being talked about.							
+									<pp>V Rising: Here's what to expect when you enter Dracula's frozen domain of Mortium<br>
+										<br>V Rising is a survival game with action RPG elements and razor-sharp skill-based combat coming to PlayStation 5 later this year.<br>
+										<br>Wake up as a Vampire after centuries of withering slumber, your kin having been forgotten after a catastrophic defeat at the hands of the Church of Luminance.<br>
+										<br>Emerge from your crypt, explore a vast open world, hunt for blood, and build a sprawling castle on your quest to reclaim your former glory.<br>
+										<br>But what glory is there to reclaim? What is the Vampire promised?<br>
+										<br>Earlier this year we announced V-Rising was coming to PS5, with a glimpse into its storyline, gameplay mechanics, and expansive open world. 
 									</pp>
 									<pp1>
-										<br><br> Source - Gameranx 
+										<br><br> Source - Playstation 
 										<br><br> Click the image to read more!	
 									</pp1>
 								</div>
 						</div>
 
 						<div class="box9">
-							<a href="https://gameranx.com/updates/id/496505/article/director-of-assassins-creed-mirage-has-more-ideas-for-basims-story/">
-								<img src="assassincreed.png" alt="HELLDIVERS - Image credits Playstation"> 
+							<a href="https://www.minecraft.net/en-us/article/armored-paws">
+								<img src="minecraft.png" alt="Minecraft - Image credits Mojang"> 
 							</a>	
 								<div class="textbox10">
-									<pp>More Ideas For Basim's Story<br> <br>
-										The creative director for Assassin's Creed Mirage wants to further Basim's story and has ideas to do so; however, it wouldn't be in the form of DLC added to the already existing game. While another game has not been confirmed, this is something that could happen in the future, considering it is being talked about.							
+									<pp>SHY FRIENDS AND ARMORED PAWS<br>
+										<br>Officially meet the armadillo and new wolves!<br>
+										<br>They're here, they're actually here! I won't contain my excitement, and neither should you! The armadillo, eight new wolf variations, and wolf armor are now officially released in today's Minecraft's Armored Paws drop, and are available to play in Minecraft: Java Edition and Minecraft: Bedrock Edition.  Just remember to not sprint full-speed at the armadillos! <br>
+										<br>THE ARMORED PAWS DROP - PLAYABLE TODAY IN MINECRAFT! <br>
+										<br>Click to see a completely made-up interpretation of what each wolf encounter means from the caffeine-fueled mind of a dog-obsessed writer. Now venture forth and see which wolves (or armadillos) you bump into! <br>
 									</pp>
 									<pp1>
-										<br><br> Source - Gameranx 
+										<br><br> Source - Playstation 
 										<br><br> Click the image to read more!	
-									</pp1>
+									</pp1>>
 								</div>
 						</div>
 
 					</div>
 
 					<div id="containerTwo">
-					<a style="float: middle" href="404.html"> <button> ALL ARTICLES </button> </a>
+					<a style="float: middle" href="404.php"> <button> ALL ARTICLES </button> </a>
 				</div>
 			</section>
 

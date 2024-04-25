@@ -51,7 +51,8 @@
         {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
-            header("Location: index.html");
+            $_SESSION['upload_error'] = false;
+            header("Location: index.php");
             exit();
         } 
         else 
@@ -59,15 +60,6 @@
             $login_error = "Invalid username or password";
         }
     }
-
-    if (!isset($_SESSION['user_id']))
-    {
-        echo("<a href='login.php'> <hh2> You are currently: Not logged in!  Click here to log in! </hh2> </a>");
-    }
-    else
-    {
-        echo("<a href='logout.php'> <hh2> You are currently: Logged in! Click here to log out! </hh2> </a>");
-    } 
 ?>
 
 <!DOCTYPE html>
@@ -90,10 +82,10 @@
         <!-- HEADER LOGO AND BUTTONS -->
         <div id="header">
             <img src="logo.png" width="400" />
-            <a class="nonactive" style="float: left" href="index.html"> <button> HOME </button> </a>
-            <a class="nonactive" style="float: left" href="gamesnews.html"> <button> GAMES NEWS </button> </a>
+            <a class="nonactive" style="float: left" href="index.php"> <button> HOME </button> </a>
+            <a class="nonactive" style="float: left" href="gamesnews.php"> <button> GAMES NEWS </button> </a>
             <a class="active" style="float: right" href="login.php"> <button> ACCOUNT </button> </a>
-            <a class="nonactive" style="float: right" href="gameslibrary.html"> <button>GAMES LIBRARY </button> </a>
+            <a class="nonactive" style="float: right" href="gameslibrary.php"> <button> GAMES LIBRARY </button> </a>
         </div>
 
         <!-- PARALLAX IMAGE AND FUNCTION -->
@@ -115,7 +107,27 @@
                     <input type="submit" value="Login">
                 </form>
                 <hh2> No account? <a href="register.php"> Register </a></hh2>
-                <?php if (isset($login_error)) echo "<br><br><pp>$login_error</pp>"; ?>
+                <?php if (isset($login_error)) echo "<pp>$login_error</pp>";
+                
+                echo("<br>");
+
+                 if (!isset($_SESSION['user_id']))
+                {
+                    echo("<a href='login.php'> <pp> You are currently: Not logged in!  Click here to log in! </pp> </a>");
+                }
+                else
+                {
+                    echo("<a href='logout.php'> <pp> You are currently: Logged in! Click here to log out! </pp> </a>");
+                } 
+
+                    // LOGOUT PORCESS
+                if (isset($_GET['logout'])) 
+                {
+                    session_destroy();
+                    header("Location: login.php");
+                    exit();
+                }
+                ?>
             </div>
         </section>
         </div>

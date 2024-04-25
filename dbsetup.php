@@ -49,7 +49,7 @@
 	// CREATES A TABLE FOR THE SELECTED DATABASE
     // SPECIFIES 3 FIELDS: ID, username AND email
     // ID FIELD IS THE PRIMARY KEY FOR THE TABLE
-	$sql = "CREATE TABLE IF NOT EXISTS games (
+	$sql = "CREATE TABLE IF NOT EXISTS gameslibrary (
         id INT AUTO_INCREMENT PRIMARY KEY,
         title TEXT,
         description TEXT,

@@ -135,34 +135,33 @@ session_start();
 			<div class="parallax-content"></div>
 		</div>
 
-<?php
-if (!isset($_SESSION['user_id']))
-{
-    echo("<a href='login.php'>Login</a>");
-}
-else
-{
-    echo("<a href='logout.php'>Log out</a>");
-}
+        <div class="cardFull4">
+			<div class="cardColour4">
+            <?php
+            if (!isset($_SESSION['user_id']))
+            {
+                echo("<a href='login.php'> <pp3> You are currently: Not logged in!  Click here to log in! </pp> </a>");
+                    }
+                    else
+                    {
+                    echo("<a href='logout.php'> <pp3> You are currently: Logged in! Click here to log out! </pp3> </a> <br>");
+                    } 
 
-?>
-    </div>
-    
-    <div>
+            ?>
 
 <?php
     if ($_SESSION["upload_error"] == true)
     {
-        echo("<p>There was an error uploading the game.</p>");
+        echo("<pp3>There was an error uploading the game.</pp3>");
     }
 ?>
 
         <form method="post" action=""  enctype="multipart/form-data">
-            <label for="title">Title:</label><br>
-            <input type="text" name="title" required><br>
+            <label for="title"><pp3>Title:</pp3></label><br>
+            <input type="text" name="title" required><br><br>
 
-            <label for="description">Description:</label>
-            <textarea name="description" id="description" rows="3" required></textarea>
+            <label for="description"><pp3>Description:</pp3></label><br>
+            <textarea name="description" id="description" rows="3" required></textarea><br><br>
 
             <label for="image">Choose Image:</label>
             <input type="file" name="image" id="image" required><br>

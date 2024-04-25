@@ -84,6 +84,13 @@ pp1 {
 	font-size: 15px;
 }
 
+pp3
+ {
+	font-size: 24px;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 /***************************************************************/
 
 /* HEADER */
@@ -783,7 +790,7 @@ input[type=submit]:hover {
 	transform: translate(-50%, -50%);
 	margin: 1rem;
 	width: 24rem;
-	height: 23rem;  
+	height: 26.5rem;  
 	color: white;
 	box-shadow: 0 2px 1000px black;
 	border-style: solid;
@@ -848,21 +855,22 @@ input[type=submit]:hover {
 
 .row 
 {
-    margin: 8px -16px;
+    margin: 2px -8px;
+	flex: 1;
 }
 
-/* Add padding BETWEEN each column (if you want) */
+/* ADDS PADDING BETWEEN THE COLUMNS */
 .row,
 .row > .column 
 {
-    padding: 8px;
+    padding: 7px;
 }
 
 /* Create four equal columns that floats next to each other */
-.column 
+.column
 {
     float: left;
-    width: 25%;
+    width: 24%;
 }
 
 /* Clear floats after rows */

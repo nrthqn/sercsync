@@ -106,18 +106,18 @@
                     <input type="password" name="password"><br>
                     <input type="submit" value="Login">
                 </form>
-                <hh2> No account? <a href="register.php"> Register </a></hh2>
+                <pp3> No account? </pp3> <a href="register.php"> <pp3> Register here!<br> </pp3> </a></hh2>
                 <?php if (isset($login_error)) echo "<pp>$login_error</pp>";
                 
                 echo("<br>");
 
                  if (!isset($_SESSION['user_id']))
                 {
-                    echo("<a href='login.php'> <pp> You are currently: Not logged in!  Click here to log in! </pp> </a>");
+                    echo("<a href='login.php'> <pp3> You are currently: Not logged in! Click here to log in! </pp3> </a>");
                 }
                 else
                 {
-                    echo("<a href='logout.php'> <pp> You are currently: Logged in! Click here to log out! </pp> </a>");
+                    echo("<a href='logout.php'> <pp3> You are currently: Logged in! Click here to log out! </pp3> </a>");
                 } 
 
                     // LOGOUT PORCESS

@@ -69,70 +69,58 @@ function get_games()
         <div class="cardFull4">
 			<div class="cardColour4">
 				<?php
-                    echo("<br>");
-
                     if (!isset($_SESSION['user_id']))
                     {
-                    echo("<a href='login.php'> <pp> You are currently: Not logged in!  Click here to log in! </pp> </a>");
+                    echo("<a href='login.php'> <pp3> You are currently: Not logged in!  Click here to log in! </pp3> </a> <br>");
                     }
                     else
                     {
-                    echo("<a href='logout.php'> <pp> You are currently: Logged in! Click here to log out! </pp> </a>");
+                    echo("<a href='logout.php'> <pp3> You are currently: Logged in! Click here to log out! </pp3> </a> <br>");
                     } 
                 ?>
                 <div>
-                    <a href="addgame.php">New game</a>
+                    <a href="addgame.php"> <pp3> * Click me to add a new game! * </pp3> </a>
                 </div>   
+
+                <?php
+                    $dbgames = get_games();
+
+                    if ($dbgames->num_rows == 0)
+                    {
+                        echo("<br><pp3>No games have been added yet!</pp3>"); 
+                    }    
+                    else
+                    {
+                        $count = 1;
+
+                        echo("<div class='row'>");
+
+                        while($row = $dbgames->fetch_assoc())
+                        {
+                            if ($count % 4 == 0)
+                            {
+                                echo("<div class='row'>");
+                            }
+
+                            echo("<div class='column'>");
+                            echo("<div class='content'>");
+                            echo("<hh2>" . $row['title'] . "</hh2>");
+                            echo("<pp1><br>" . $row['description'] ."</pp1>");
+                            echo("<img src='". $row['image_path'] . "' alt='" . $row['description'] ."' class='gameImage'>");
+                            echo("</div>");
+                            echo("</div>");
+
+                            if ($count % 4 == 0)
+                            {
+                                echo("</div>");
+                            }
+                            $count++;
+                        }
+                    }
+                ?>
 			</div>
 		</div>
-                
-            
 
-
-
-<?php
-$dbgames = get_games();
-
-if ($dbgames->num_rows == 0)
-{
-    echo("<pp>No games have been added, yet.</pp>"); 
-}    
-else
-{
-    $count = 1;
-
-    echo("<div class='row'>");
-
-    while($row = $dbgames->fetch_assoc())
-    {
-        if ($count % 4 == 0)
-        {
-            echo("<div class='row'>");
-        }
-
-        echo("<div class='column'>");
-        echo("<div class='content'>");
-        echo("<hh2>" . $row['title'] . "</hh2>");
-        echo("<pp><br>" . $row['description'] ."</pp>");
-        echo("<img src='". $row['image_path'] . "' alt='" . $row['description'] ."' class='gameImage'>");
-        echo("</div>");
-        echo("</div>");
-
-        if ($count % 4 == 0)
-        {
-            echo("</div>");
-        }
-
-        $count++;
-    }
-
-}
-
-
-
-
-?>
-
-
-</body>
+        
+    </body>
 </html>

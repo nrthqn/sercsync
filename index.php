@@ -1,18 +1,20 @@
 <?php
-session_start();
-
+	session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- ADDRESS BAR -->
 		<title> Landing - SERCsync </title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
 
+		<!-- OTHER -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<script src="script.js"></script>
 
+		<!-- FONT -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@900&family=Madimi+One&display=swap" rel="stylesheet">
@@ -29,7 +31,7 @@ session_start();
 			<a class="nonactive" style="float: right" href="gameslibrary.php"> <button> GAMES LIBRARY </button> </a>
 		</div>
 
-		<!-- PARALLAX IMAGE AND FUNCTION -->
+		<!-- PARALLAX IMAGE -->
 		<div class="parallax">
 			<div class="parallax-image"></div>
 			<div class="parallax-content"></div>
@@ -37,8 +39,10 @@ session_start();
 
 		<!-- ROW 1 CONTAINERS -->
 		<div class="cardFull">
+
+			<!-- TOP VIDEO GAME QUOTES CONTAINER -->			
 			<div class="cardLarge">
-				<div class="box10">
+				<div class="box10">					
 					<div class="textbox10">
 						<hh2> TOP VIDEO GAME QUOTES <br> </hh2>
 						<pp><br>"Stand amongst the ashes of a trillion dead souls and ask the ghosts if honor matters. The silence is your answer." - Javik, Mass Effect 3<br>
@@ -47,11 +51,13 @@ session_start();
 							<br>"One of these days you're going to land on something as stubborn as you are, and I don't do bits and pieces." - Sergeant Johnson, Halo <br>
 							<br>"Everyone thinks they're the hero of their own story." - Handsome Jack, Borderlands<br>
 							<br>"If the laws of physics no longer apply in the future... God help you." -Portal 2<br>
-							<br>"History Is Written By The Victor. History Is Filled With Liars. If He Lives, And We Die, His Truth Becomes Written And Ours Is Lost."" - Captain Price
+							<br>"History Is Written By The Victor. History Is Filled With Liars. If He Lives, And We Die, His Truth Becomes Written And Ours Is Lost." - Captain Price
 						</pp>
 					</div>
 				</div>
 			</div>
+			
+			<!-- WELCOME CONTAINER -->
 			<div class="cardLarge">
 				<div class="box11">
 					<div class="tenor-gif-embed" data-postid="4727802" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/fallout-video-game-game-gaming-bethesda-gif-4727802">Loading Screen - Fallout GIF</a>from <a href="https://tenor.com/search/fallout-gifs">Fallout GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
@@ -64,6 +70,7 @@ session_start();
 					</div>
 				</div>
 			</div>
+
 		</div>
 
 		<!-- FULL WIDTH CARD NO. 1 -->
@@ -73,72 +80,77 @@ session_start();
 			</div>
 		</div>
 
-		<!-- ROW 2 CONTAINERS  -->
+		<!-- NEWS YOU NEED TO SEE CONTAINERS  -->
 		<div class="cardFull">
 			<div class="cardLarge">
+
+				<!-- ARTICLE 1 -->
 				<div class="box10">
 					<a href="https://www.gamesradar.com/games/third-person-shooter/helldivers-2-dev-says-they-dont-know-if-the-shooter-will-ever-go-bigger-than-4-player-squads-but-it-would-require-a-lot-of-work/">
 						<img src="helldivers.png" alt="HELLDIVERS - Image credits Playstation">
 					</a>	 
-						<div class="textbox10">
-							<pp>Helldivers 4+ player teams?<br> <br>
-								Helldivers 2 dev says they don't know if the shooter will ever go bigger than 4-player squads, but it "would require a lot of work"
-							</pp>
-							<pp1>
-								<br><br> Source - Games Radar 
-								<br><br> Click the image to read more!	
-							</pp1>
-						</div>
+					<div class="textbox10">
+						<pp>Helldivers 4+ player teams?<br> <br>
+							Helldivers 2 dev says they don't know if the shooter will ever go bigger than 4-player squads, but it "would require a lot of work"
+						</pp>
+						<pp1>
+							<br><br> Source - Games Radar 
+							<br><br> Click the image to read more!	
+						</pp1>
+					</div>
 				</div>
 			</div>
 
+			<!-- ARTICLE 2 -->
 			<div class="cardLarge">
 				<div class="box10">
 					<a href="https://gameranx.com/updates/id/496505/article/director-of-assassins-creed-mirage-has-more-ideas-for-basims-story/">
 						<img src="assassincreed.png" alt="HELLDIVERS - Image credits Playstation"> 
 					</a>
-						<div class="textbox10">
-							<pp>More Ideas For Basim's Story<br> <br>
-								The creative director for Assassin's Creed Mirage wants to further Basim's story and has ideas to do so; however, it wouldn't be in the form of DLC added to the already existing game. While another game has not been confirmed, this is something that could happen in the future, considering it is being talked about.							
-							</pp>
-							<pp1>
-								<br><br> Source - Gameranx 
-								<br><br> Click the image to read more!	
-							</pp1>
-						</div>
+					<div class="textbox10">
+						<pp>More Ideas For Basim's Story<br> <br>
+							The creative director for Assassin's Creed Mirage wants to further Basim's story and has ideas to do so; however, it wouldn't be in the form of DLC added to the already existing game. While another game has not been confirmed, this is something that could happen in the future, considering it is being talked about.							
+						</pp>
+						<pp1>
+							<br><br> Source - Gameranx 
+							<br><br> Click the image to read more!	
+						</pp1>
+					</div>
 				</div>
 			</div>
 
+			<!-- ARTICLE 3 -->
 			<div class="cardLarge">
 				<div class="box10">
 					<a href="https://blog.playstation.com/2024/04/24/new-gran-turismo-7-update-features-an-all-electric-concept-racing-car-created-exclusively-for-the-game/">
 						<img src="gt7.png" alt="Grand Turismo 7 - Image credits Playstation"> 
 					</a>
-						<div class="textbox10">
-							<pp>New Gran Turismo 7 update features an all-electric concept racing car created exclusively for the game<br> <br>
-								Gran Turismo players! Now more than ever, technology is developing in ways that creates endless possibilities. This month's GT updates features a glimpse of what the future would hold through two vehicles, the coveted ŠKODA Vision Gran Turismo and AFEELA Prototype 2024 .   
-							</pp>
-							<pp1>
-								<br><br> Source - Playstation 
-								<br><br> Click the image to read more!	
-							</pp1>
-						</div>
+					<div class="textbox10">
+						<pp>New Gran Turismo 7 update features an all-electric concept racing car created exclusively for the game<br> <br>
+							Gran Turismo players! Now more than ever, technology is developing in ways that creates endless possibilities. This month's GT updates features a glimpse of what the future would hold through two vehicles, the coveted ŠKODA Vision Gran Turismo and AFEELA Prototype 2024 .   
+						</pp>
+						<pp1>
+							<br><br> Source - Playstation 
+							<br><br> Click the image to read more!	
+						</pp1>
+					</div>
 				</div>
 			</div>
 
+			<!-- ARTICLE 4 -->
 			<div class="cardLarge">
 				<div class="box10">
 					<a href="https://www.ign.com/articles/garrys-mod-removing-all-nintendo-content-from-steam-workshop-after-takedown-request">
 						<img src="mario.png" alt="Mario - Image credits IGN / Nintendo"> 
 					</a>
-						<div class="textbox10">
-							<pp>No more Mario in GMod<br> <br>
-								Nintendo Won't Let You Use its Content in Garry's Mod <br> <br>
-								The developer of Garry's Mod has announced it is in the process of removing all Nintendo-related content from Steam Workshop after receiving a takedown request from Nintendo.							<pp1>
-								<br><br> Source - IGN 
-								<br><br> Click the image to read more!	
-							</pp1>
-						</div>
+					<div class="textbox10">
+						<pp>No more Mario in GMod<br> <br>
+							Nintendo Won't Let You Use its Content in Garry's Mod <br> <br>
+							The developer of Garry's Mod has announced it is in the process of removing all Nintendo-related content from Steam Workshop after receiving a takedown request from Nintendo.							<pp1>
+							<br><br> Source - IGN 
+							<br><br> Click the image to read more!	
+						</pp1>
+					</div>
 				</div>
 			</div>
 		</div> 
@@ -152,8 +164,10 @@ session_start();
 		</div>
 
 
-		<!-- ROW 3 CONTAINERS -->
+		<!-- HOTTEST GAMES ON THESE PLATFORMS CONTAINERS -->
 		<div class="cards">
+
+			<!-- GAME 1 -->
 			<div class="card">
 				<div class="box10">
 					<a href="https://www.xbox.com/en-GB/games/forza-horizon-4">
@@ -166,6 +180,7 @@ session_start();
 				</div>
 			</div>
 
+			<!-- GAME 2 -->
 			<div class="card">
 				<div class="box10">
 					<a href="https://www.playstation.com/en-gb/games/helldivers/">
@@ -178,6 +193,7 @@ session_start();
 				</div>
 			</div>
 
+			<!-- GAME 3 -->
 			<div class="card">
 				<div class="box10">
 					<a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/">
@@ -189,6 +205,7 @@ session_start();
 					</div>
 				</div>
 			</div>
+
 		</div> 
 
 
@@ -200,59 +217,67 @@ session_start();
 	</div>
 
 
-		<!-- ROW 3 CONTAINERS -->
+		<!-- HEAR MORE / REACH OUT CONTAINERS -->
 		<div class="cardFull1">
 			<div class="cards1">
-				<div class="containerFive">
-				<div class="containerFive-container">
-					<hh2>Want to get in touch?</hh2>
+
+			<!-- GAME 1 -->
+			<div class="containerFive">
+			<div class="containerFive-container">
+				<hh2>Want to get in touch?</hh2>
 					<pp> <br> Have a suggestion for our team? Maybe you want us to cover something? Let us know below! </pp>
-					<form action="404.php">
-						<div class="row">
-						  <div class="col-25">
+
+				<form action="404.php">
+					<div class="row">
+						<div class="col-25">
 							<label for="fname">First Name</label>
-						  </div>
-						  <div class="col-75">
+						</div>
+						<div class="col-75">
 							<input type="text" id="fname" name="firstname" placeholder="Your name..">
-						  </div>
 						</div>
-						<div class="row">
-						  <div class="col-25">
+					</div>
+
+					<div class="row">
+						<div class="col-25">
 							<label for="lname">Last Name</label>
-						  </div>
-						  <div class="col-75">
+						</div>
+						<div class="col-75">
 							<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-						  </div>
 						</div>
-						<div class="row">
-						  <div class="col-25">
+					</div>
+
+					<div class="row">
+						<div class="col-25">
 							<label for="country">Country</label>
-						  </div>
-						  <div class="col-75">
-							<select id="country" name="country">
-							  <option value="uk">UK</option>
-							  <option value="canada">Canada</option>
-							  <option value="usa">USA</option>
-							  <option value="europe">Europe</option>
-							  <option value="other">Other</option>
-							</select>
-						  </div>
 						</div>
-						<div class="row">
-						  <div class="col-25">
+						<div class="col-75">
+						<select id="country" name="country">
+							<option value="uk">UK</option>
+							<option value="canada">Canada</option>
+							<option value="usa">USA</option>
+							<option value="europe">Europe</option>
+							<option value="other">Other</option>
+						</select>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-25">
 							<label for="subject">Let us know why you're getting in touch!</label>
-						  </div>
-						  <div class="col-75">
+						</div>
+						<div class="col-75">
 							<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-						  </div>
 						</div>
-						<div class="row">
-						  <input type="submit" value="Submit"> 			
-						</div>
-					  </form>			
-				</div>
+					</div>
+
+					<div class="row">
+						<input type="submit" value="Submit"> 			
+					</div>
+				</form>			
+			</div>
 			</div>
 
+			<!-- NEWSLETTER CONTAINER -->
 			<div class="cardFull2">
 				<div class="cards2">
 				<section class="containerFour">
@@ -271,8 +296,10 @@ session_start();
 							<input type="submit" value="Subscribe">
 						</div>
 					</form>
+				</section>
 			</div>
 
+			<!-- GOOGLE MAP -->
 			<div class="cardFull3">
 				<section class="containerFour">
 					<iframe
@@ -283,16 +310,16 @@ session_start();
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4484.761585665469!2d-5.663690867587233!3d54.655283814958935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48619e1ea2a9c507%3A0xd2ec0d09428bbfc2!2sSouth%20Eastern%20Regional%20College!5e0!3m2!1sen!2suk!4v1713450917082!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">"
 						<allowfullscreen>
 					</iframe>
+				</section>
 			</div>
 		</div>
 
 		<!-- FOOTER -->
 		<footer class="footer">
 			<div class="footer">
-						SERCsync Copyright - 2024 SERC - All rights reserved
+				SERCsync Copyright - 2024 SERC - All rights reserved
 			</div>
-		 </footer>
+		</footer>
 
-		</div>
 	</body>
 </html>

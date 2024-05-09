@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- ADDRESS BAR -->
 		<title> 404 Error - SERCsync </title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
 
+		<!-- OTHER -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<script src="script.js"></script>
 
+		<!-- FONT -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@900&family=Madimi+One&display=swap" rel="stylesheet">
-	
-		<link href="recent-news-boxes.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
-	
 	</head>
 	
 	<body>
@@ -30,21 +27,27 @@
 			<a class="nonactive" style="float: right" href="gameslibrary.php"> <button> GAMES LIBRARY </button> </a>
 		</div>
 
-		<!-- PARALLAX IMAGE AND FUNCTION -->
+		<!-- PARALLAX IMAGE -->
 		<div class="parallax">
 			<div class="parallax-image"></div>
 			<div class="parallax-content"></div>
 		</div>
 
+     	<!-- TEXT -->
         <div class="footer">
-		<hh2>This page is a filler!<br> If functional, it would do, you know, functions.<br> Please select a webpage from above to continue your exploration!</hh2>
+			<hh2>This page is a filler!<br>
+				If functional, it would do, you know, functions.<br>
+				Please select a webpage from above to continue your exploration!
+			</hh2>
+		
+		<!-- DIV ABOVE IS LEFT OPEN SO AS ACTUAL FOOTER DOES NOT OVERLAP FILLER TEXT -->
 
-		<!-- FOOTER -->
-		<footer class="footer">
-			<div class="footer">
-						SERCsync Copyright - 2024 SERC - All rights reserved
-			</div>
-		 </footer>
+			<!-- FOOTER -->
+			<footer class="footer">
+				<div class="footer">
+					SERCsync Copyright - 2024 SERC - All rights reserved
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>

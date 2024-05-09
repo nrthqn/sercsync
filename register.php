@@ -75,24 +75,21 @@
             echo "Error creating user account. Please try again!";
         }
     }
-
-
-
-
-
-
     ?>
 
 <!DOCTYPE html>
 <html>
     <head>
+		<!-- ADDRESS BAR -->
 		<title> Register - SERCsync </title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
 
+		<!-- OTHER -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<script src="script.js"></script>
 
+		<!-- FONT -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@900&family=Madimi+One&display=swap" rel="stylesheet">
@@ -103,33 +100,33 @@
 		<!-- HEADER LOGO AND BUTTONS -->
 		<div id="header">
 			<img src="logo.png" width="400" />
-			<a class="nonactive" style="float: left" href="index.html"> <button> HOME </button> </a>
-			<a class="nonactive" style="float: left" href="gamesnews.html"> <button> GAMES NEWS </button> </a>
+			<a class="nonactive" style="float: left" href="index.php"> <button> HOME </button> </a>
+			<a class="nonactive" style="float: left" href="gamesnews.php"> <button> GAMES NEWS </button> </a>
 			<a class="active" style="float: right" href="login.php"> <button> ACCOUNT </button> </a>
-			<a class="nonactive" style="float: right" href="gameslibrary.html"> <button>GAMES LIBRARY </button> </a>
+			<a class="nonactive" style="float: right" href="gameslibrary.php"> <button> GAMES LIBRARY </button> </a>
 		</div>
 
-		<!-- PARALLAX IMAGE AND FUNCTION -->
+		<!-- PARALLAX IMAGE -->
 		<div class="parallax">
 			<div class="parallax-image"></div>
 			<div class="parallax-content"></div>
 		</div>
 
-        <!-- CONTAINERS -->
+        <!-- REGISTER CONTAINER -->
 		<div class="container">
         <section class="containerEight">
             <div class="containerEight-container">
-                        <hh2> <br> Register now! </hh2>
-                        <form method="post" action="">
-                            <label> <br> Username:</label><br>
-                            <input type="text" name="username"><br>
-                            <label> <br> Password:</label><br>
-                            <input type="password" name="password"><br>
-                            <label> <br> Email: </label><br>
-                            <input type="email" name="email"><br>
-                            <input type="submit" value="Register">
-                        </form>
-                </div>
+                    <hh2> <br> Register now! </hh2>
+                <form method="post" action="">
+                    <label> <br> Username:</label><br>
+                        <input type="text" name="username"><br>
+                    <label> <br> Password:</label><br>
+                        <input type="password" name="password"><br>
+                    <label> <br> Email: </label><br>
+                        <input type="email" name="email"><br>
+                        <input type="submit" value="Register">
+                </form>
+            </div>
         </section>
 
 </html>

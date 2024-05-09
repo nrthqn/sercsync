@@ -7,7 +7,7 @@
 	$dbpassword = "";
 	
 	global $connection;
-	$connection = new mysqli($host, $username, $dbpassword); // gets use a connection object to use to access mysql
+	$connection = new mysqli($host, $username, $dbpassword);
 	
 	// CHECKS IF THE CONNECTION WORKS
 	if ($connection->connect_error)
@@ -40,6 +40,7 @@
 
     if ($connection->query($sql) === TRUE) 
     {
+        // CAN ADD AN ECHO HERE TO TEST IF THE TABLE IS CREATED.
     } 
     else 
     {
@@ -58,6 +59,7 @@
 
     if ($connection->query($sql) === TRUE) 
     {
+        // CAN ADD AN ECHO HERE TO TEST IF THE TABLE IS CREATED.
     } 
     else 
     {

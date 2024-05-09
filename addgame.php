@@ -1,3 +1,4 @@
+
 <?php
 // STARTS THE SESSION
 session_start();
@@ -124,9 +125,9 @@ session_start();
 		<div id="header">
 			<img src="logo.png" width="400" />
 			<a class="nonactive" style="float: left" href="index.php"> <button> HOME </button> </a>
-			<a class="active" style="float: left" href="gamesnews.php"> <button> GAMES NEWS </button> </a>
+			<a class="nonactive" style="float: left" href="gamesnews.php"> <button> GAMES NEWS </button> </a>
 			<a class="nonactive" style="float: right" href="login.php"> <button> ACCOUNT </button> </a>
-			<a class="nonactive" style="float: right" href="gameslibrary.php"> <button>GAMES LIBRARY </button> </a>
+			<a class="active" style="float: right" href="gameslibrary.php"> <button>GAMES LIBRARY </button> </a>
 		</div>
 
 		<!-- PARALLAX IMAGE AND FUNCTION -->
